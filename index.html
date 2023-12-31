@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Shopper</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#categories">CATEGORIES</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#offers">OFFERS</a></li>
+                    <li><a href="#careers">CAREERS</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Search here">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+
+        </div> 
+        <div class="content">
+            <h1>Shop here<br><span>Unique Collection</span> <br></h1>
+            <p class="par">Shopper offers you the best collection of cloths you didn' find anywhere..<br>Shop here once and you will love it the way you look
+            <br> Happy shopping</p>
+
+                <button class="cn" onclick="showOffers()">Offers Here</button>
+
+                <div class="form">
+                    <h2>Login</h2>
+                    <input id="email" type="email" name="email" placeholder="Enter Email">
+                    <input id="password"" type="password" name="" placeholder="Enter Password">
+                    <button class="btnn" onclick="check()">Login</button>
+
+                    <p class="link">Don't have an account<br>
+                    <a href="signup.html">Sign up </a> here</a></p>
+                    <p class="liw">Log in with</p>
+
+                    <div class="icons">
+                        <a href="https://www.facebook.com"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="https://www.instagram.com"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="https://www.twitter.com"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="https://www.goggle.com"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="https://www.skype.com"><ion-icon name="logo-skype"></ion-icon></a>
+                    </div>
+                </div>
+                    </div>
+                </div>
+        </div>
+        <section class="Categories" id="categories">
+            <h2 class="all-headings"><span>Categories</span></h2>
+            
+        </section>
+        <section class="Services" id="services">
+            <h2 class="all-headings"><span>Services</span></h2>
+        </section>
+        <section class="Offers" id="offers">
+            <h2 class="all-headings"><span>Offers</span></h2>
+        </section>
+        <section class="Careers" id="careers">
+            <h2 class="all-headings"><span>Careers</span></h2>
+        </section>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
